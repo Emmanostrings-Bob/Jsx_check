@@ -1,0 +1,29 @@
+div {
+    height: 60rem;
+    width: 99%;
+    background-image: conic-gradient(from -90deg at 25% 115%, #ff0000, #ff0066, #ff00cc, #cc00ff, #6600ff, #0000ff, #0000ff, #0000ff, #0000ff);
+    overflow: hidden;
+    border-radius: 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  img {
+    width: 40rem;
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+    border-radius: 20px 30px;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  .hi{
+    margin: 0;
+  }
